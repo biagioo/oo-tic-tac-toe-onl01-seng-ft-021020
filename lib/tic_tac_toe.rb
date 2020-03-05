@@ -99,7 +99,11 @@ class TicTacToe
   end 
   
   def over? 
+<<<<<<< HEAD
     won? || draw?
+=======
+    won? || full?
+>>>>>>> 7501d93bbbe66a78bf2dab5423a554073c375340
   end 
 
   def winner 
@@ -114,7 +118,11 @@ class TicTacToe
   end 
 
   def play
+<<<<<<< HEAD
     while !over?
+=======
+    while over? == true
+>>>>>>> 7501d93bbbe66a78bf2dab5423a554073c375340
       turn
     end
     if won?
